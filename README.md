@@ -1,5 +1,5 @@
-# subnetool
-This tool for subnet calculation
+# This tool is for subnet calculation.
+
 # Subnet Tool
 
 The Subnet Tool is a command-line utility written in Python that helps you calculate the network, broadcast, first, and last host addresses in a subnet. It also provides a colorful ASCII art banner to enhance the tool's appearance.
@@ -30,4 +30,9 @@ Before using the Subnet Tool, make sure you have the following prerequisites ins
 ## Usage
 
 To execute the Subnet Tool in the terminal, use the following command:
+
+Replace `<IP_ADDRESS>` with the IP address you want to calculate the subnet for and `<SUBNET_MASK>` with the subnet mask in CIDR notation (e.g., 24).
+
+For example, to calculate the subnet information for IP address `192.168.0.10` with a subnet mask of `24`, run the following command:
+
 
